@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    border:2px solid;
+}
+
+.container-fluid{
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: skyblue;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+.experience{
+    margin-bottom: 10px;
+}

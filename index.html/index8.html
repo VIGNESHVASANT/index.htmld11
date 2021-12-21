@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        p{
+            background-color: red;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            height: 25px;
+        }
+        fieldset{
+            border: 5px solid black;
+            width: 30%
+        }
+        input{
+            border: none;
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <p>Yes! I want to subscribe to <b><i>Mag-O-Zine</i></b></p>
+                <table>
+                <tr>
+                <td colspan="3">
+                <input type="text" id="firstname" name="first
+                name" size="22">
+                <label for="firstname" style="display:block; t
+                ext-align:left">First Name</label>
+                </td>
+                <td colspan="3">
+                <input type="text" id="lastname" name="lastnam
+                e" size="25">
+                <label for="lastname" style="display:block; te
+                xt-align:left">Last Name</label>
+                </td>
+                </tr>
+                <tr>
+                <td colspan="6">
+                <input type="text" id="address" name="add
+                ress" size="50" >
+                <label for="address" style="display:block;
+                text-align:left">Address </label>
+                </td>
+                </tr>
+                <tr>
+                <td colspan="2">
+                <input type="text" id="city" name="city"
+                size="10">
+                <label for="city style="display:block; tex
+                t-align:left">City</label>
+                </td>
+                <td colspan="2">
+                <input type="text" id="state" name="state
+                " size="10">
+                <label for="state" style="display:block; t
+                ext-align:left">State</label>
+                </td>
+                <td colspan="2">
+                <input type="text" id="zip" name="zip" siz
+                e="10">
+                <label for="zip" style="display:block; tex
+                t-align:left">Zip</label>
+                </td>
+                </tr>
+                </table>
+                <br>Subscribe for:
+                <input type="checkbox">1 year ($19.95)
+                <input type="checkbox">2 year ($35.00)<br>
+                Send me more information about:<br>
+                <input type="checkbox">Computer-Zine<br>
+                <input type="checkbox">Fishing -Zine<br>
+                <input type="checkbox">Cat-O-Zine
+                </br>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
